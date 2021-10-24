@@ -408,6 +408,10 @@ display: none;
 #root button{
 display: block;
 margin:auto;
+background-color: #fb87a5;
+-webkit-animation: hue-rotate 7s infinite;
+animation: hue-rotate 7s infinite;
+min-width: 150px;
 
 }
 header {
