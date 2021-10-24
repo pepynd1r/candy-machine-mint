@@ -524,6 +524,10 @@ color:#fff;
 		width: 100%;
 		opacity: 0.2;
 	}
+	h1{	font-size: 41px;}
+	section.second-half{
+		padding: 20px 0px;
+	}
 }
 @media(max-width:437px){
 
