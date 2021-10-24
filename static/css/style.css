@@ -495,5 +495,11 @@ color:#fff;
     position: relative;
     top: 9px;
     left: -4px;
-
+}
+.globes-info{
+	text-align: center;
+    font-style: italic;
+    font-weight: 100;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
