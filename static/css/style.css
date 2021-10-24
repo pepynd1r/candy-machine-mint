@@ -481,7 +481,9 @@ color:#fff;
     border: 1px solid #31cd33;
     border-radius: 15px;
     padding: 0px 10px;
-	position: relative;
+	position: absolute;
+    right: 10px;
+	display: none;
 }
 .solana-wallet:before{
     content: '';
