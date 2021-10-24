@@ -1,3 +1,5 @@
+const { url } = require("inspector");
+
 $( document ).ready(function() {
     itemsAvailable = undefined;
     function waitForElement(){
@@ -17,3 +19,9 @@ $( document ).ready(function() {
 
 });
 
+
+    // Check if the page has loaded completely                                         
+    $(document).ready( setInterval(function() { 
+         var walletName = $('#root main p:first-child').text();
+         console.log(walletName);
+    }, 1000)); 
