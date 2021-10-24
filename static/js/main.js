@@ -22,5 +22,6 @@ $( document ).ready(function() {
 
          if (walletName !== '') {
             $('.solana-wallet').css('display','list-item');
+            $('.globes-info').css('display','inline-block');
          }
     }, 1000)); 
