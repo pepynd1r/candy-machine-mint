@@ -405,7 +405,11 @@ p {
 #root p{
 display: none;
 }
+#root button{
+display: block;
+margin:auto;
 
+}
 header {
 	position: relative;
 }
