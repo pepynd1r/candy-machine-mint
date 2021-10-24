@@ -402,7 +402,9 @@ p {
 	}
 }
 
-
+#root p{
+display: none;
+}
 
 header {
 	position: relative;
