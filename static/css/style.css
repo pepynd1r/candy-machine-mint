@@ -525,7 +525,7 @@ color:#fff;
 		opacity: 0.2;
 	}
 	h1{	font-size: 41px;}
-	section.second-half{
+	section.second-half, section.third-half{
 		padding: 20px 0px;
 	}
 }
