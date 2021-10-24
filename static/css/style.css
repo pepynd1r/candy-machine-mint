@@ -474,3 +474,11 @@ section.fourth-half h2{
 .btn-link:hover{
 color:#fff;
 }
+
+.solana-wallet{
+	font-size: 14px;
+    line-height: 39px;
+    border: 1px solid #31cd33;
+    border-radius: 15px;
+    padding: 0px 10px;
+}
