@@ -520,6 +520,10 @@ color:#fff;
 	.third-half video{
 		width: 100%;
 	}
+	section.second-half img {
+		width: 100%;
+		opacity: 0.2;
+	}
 }
 @media(max-width:437px){
 
