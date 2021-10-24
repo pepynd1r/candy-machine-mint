@@ -7,6 +7,7 @@ $( document ).ready(function() {
     // Check if the page has loaded completely                                         
     $(document).ready( setInterval(function() { 
          var walletName = $('#root main p:first-child').text();
+         walletName = walletName.replace("Wallet", "");
          var walletBalance = $('#root main p:nth-child(2)').text();
          walletBalance = walletBalance.replace("Balance:", "");
          var nftsAvailable = $('#root main p:nth-child(3)').text();
