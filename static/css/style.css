@@ -517,6 +517,9 @@ color:#fff;
 		height:70px;
 		    margin: 20px 10px;
 	}
+	.third-half video{
+		width: 100%;
+	}
 }
 @media(max-width:437px){
 
