@@ -510,6 +510,13 @@ color:#fff;
 	display: none;
 }
 
+@media(max-width:1048px){
+section.second-half img {
+		width: 100%;
+		opacity: 0.2;
+	}
+}
+
 @media(max-width:991px){
 	.solana-wallet{
 		position:unset;
@@ -529,10 +536,7 @@ color:#fff;
 	.third-half video{
 		width: 100%;
 	}
-	section.second-half img {
-		width: 100%;
-		opacity: 0.2;
-	}
+	
 	h1{	font-size: 41px;}
 	section.second-half, section.third-half{
 		padding: 20px 0px;
