@@ -482,3 +482,11 @@ color:#fff;
     border-radius: 15px;
     padding: 0px 10px;
 }
+.solana-wallet:before{
+	content: '';
+	display: inline-block;
+	background-image: url(/static/images/sol-logo.svg);
+	background-size: 25px;
+	width: 25px;
+	height: 25px;
+}
