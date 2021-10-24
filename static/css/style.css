@@ -402,11 +402,7 @@ p {
 	}
 }
 
-#root {
-	position: absolute;
-	top: 20px;
-	right: 30px;
-}
+
 
 header {
 	position: relative;
