@@ -8,4 +8,5 @@ $( document ).ready(function() {
     $(document).ready( setInterval(function() { 
          var walletName = $('#root main p:first-child').text();
          console.log(walletName);
+         $('.wallet-name').html( walletName );
     }, 1000)); 
