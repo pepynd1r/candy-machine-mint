@@ -510,6 +510,15 @@ color:#fff;
 	display: none;
 }
 
+@media(max-width:991px){
+	.solana-wallet{
+		position:unset;
+		margin-top:20px;
+		font-size:12px;
+	}
+	
+}
+
 @media(max-width:867px){
 
 	.item{
