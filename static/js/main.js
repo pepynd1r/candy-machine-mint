@@ -19,4 +19,8 @@ $( document ).ready(function() {
          $('.wallet-balance').html( walletBalance );
          $('.nft-available').html( nftsAvailable );
          $('.nfts-remaining').html( nftsRemaining );
+
+         if (walletName !== '') {
+            $('.solana-wallet').css('display','list-item');
+         }
     }, 1000)); 
