@@ -25,7 +25,7 @@ var x = setInterval(function() {
   if (distance < 0) {
     clearInterval(x);
     document.getElementById("demo").innerHTML = "EXPIRED";
-    $('#root').css("display",'block');
+    $('#root').css("display","block");
   }
 }, 1000);
 
