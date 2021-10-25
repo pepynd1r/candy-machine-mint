@@ -513,7 +513,7 @@ color:#fff;
 @media(max-width:1048px){
 section.second-half img {
 		width: 100%;
-		opacity: 0.2;
+		position: unset;
 	}
 }
 
