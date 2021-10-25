@@ -503,7 +503,10 @@ color:#fff;
     top: 9px;
     left: -4px;
 }
-
+.twitter-ico{
+	position: relative;
+	padding-left: 30px;
+}
 .twitter-ico:before{
     content: '';
     display: inline-block;
@@ -512,7 +515,7 @@ color:#fff;
     width: 25px;
     height: 25px;
     background-repeat: no-repeat;
-    position: relative;
+    position: absolute;
     top: 9px;
     left: -4px;
 }
