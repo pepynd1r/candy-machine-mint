@@ -510,6 +510,14 @@ color:#fff;
 	display: none;
 }
 
+.mint-start{
+	text-align: center;
+    font-style: italic;
+    font-size: 32px;
+    font-weight: 200;
+    margin-bottom: 24px;
+}
+
 @media(max-width:1048px){
 section.second-half img {
 	width: 100%;
