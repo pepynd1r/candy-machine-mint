@@ -512,8 +512,9 @@ color:#fff;
 
 @media(max-width:1048px){
 section.second-half img {
-		width: 100%;
-		position: unset;
+	width: 100%;
+    position: unset;
+    margin-top: 34px;
 	}
 }
 
