@@ -48,6 +48,8 @@
          <div class="item three item--sphere item--color3"></div>
          <div class="item four item--sphere item--color4"></div>
        </div>
+
+       <p id="demo"></p>
 <div class="row no-gutters">
     <div class="col-12"><p class="globes-info">Solana Globes left: <span class="nft-available"></span>/<span class="nfts-remaining"></span></p></div>
     
@@ -60,7 +62,7 @@
              <div class="row">
                 <div class="col-12 col-lg-7">
        <h2 id="about" class="mb-5">About Solana Globes</h2>
-       <p>Limited: 250 unique, algorithmically generated spinning colourful Globes in a MP4 format - stored with proof of ownership stored on the Solana blockchain.</p>
+       <p><strong>Limited</strong>: 250 unique, algorithmically generated spinning colourful Globes in a MP4 format - stored with proof of ownership stored on the Solana blockchain.</p>
          
       <p>We believe in Solana and we believe in NFTs. In the future, we'll look at this period as a defining moment in culture and technology. History is being made, and we want to be part of it in a meaningful way.</p>
    </div>   
@@ -68,7 +70,7 @@
 
    <picture>
     <source media="(max-width: 1048px)" srcset="/static/images/sol-globes-hr.png">
-    <img src="/static/images/sol-globes.png" alt="About Solana Globes" class="">
+    <img src="/static/images/sol-globes.png" alt="About Solana Globes">
   </picture>
    </section>
        <section class="third-half">
@@ -177,6 +179,37 @@
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
       <script src="/static/js/main.js"></script>
-      
+
+
+<script>
+// Set the date we're counting down to
+var countDownDate = new Date("Jan 5, 2022 15:37:25").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+  // Get today's date and time
+  var now = new Date().getTime();
+
+  // Find the distance between now and the count down date
+  var distance = countDownDate - now;
+
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+  // Display the result in the element with id="demo"
+  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
+
+  // If the count down is finished, write some text
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "EXPIRED";
+  }
+}, 1000);
+</script>
    </body>
 </html>
