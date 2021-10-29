@@ -401,9 +401,7 @@ p {
 		filter: hue-rotate(0deg);
 	}
 }
-#root{
-	display: none;
-}
+
 #root p{
 display: none;
 }
