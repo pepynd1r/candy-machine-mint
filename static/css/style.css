@@ -546,9 +546,9 @@ color:#fff;
 .mint-start{
 	text-align: center;
     font-style: italic;
-    font-size: 32px;
+    font-size: 18px;
     font-weight: 200;
-    margin-bottom: 24px;
+    margin-bottom: 0px;
 }
 
 @media(max-width:1048px){
